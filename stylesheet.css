@@ -1,0 +1,190 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	font-family: Segoe, "Segoe UI","DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+
+em{ /* Italics */
+	color: #FF004F;
+	font-size: 13px;
+}
+
+a{  /* Links */
+	color: #FF004F;
+    text-decoration: none; 
+}
+
+a:hover{ 
+	color: #0200CD;
+	text-decoration:underline;
+}
+	
+.container /* Outer */
+{
+	width: 100%;
+	height: 100%;
+	background-color: #DDDDDD;
+	margin: auto;
+	border-radius: 50%;
+}
+
+#header
+{
+	background-color: #FF004F;
+	height: 95px;
+	width: 85%;
+	margin: auto;
+	margin-bottom: -20px;
+	border-bottom: solid black 5px;
+	border-top-left-radius: 40px;
+	border-top-right-radius: 40px;
+	
+}
+
+#header h1 /* Name Text */
+{
+	font-family: "Brush Script MT";
+	color: white;
+	font-size: 5.1em;
+	margin:50px;
+}
+	
+
+#mainArea /* Inner */
+{
+	width: 85%;
+	height: auto;
+	background-color: #FFFFFF;
+	margin: auto;
+ }
+		   						
+ .profile /* About Me & Contact */
+{
+	width: 70%;
+	height: auto;
+	background-color: #FFFFFF;
+}
+
+.picture{  /* Display picture */
+	border: 2px  solid black;
+	border-radius: 5px;
+	float: right;
+	height: 300px;
+	width: 300px;
+	padding: 10px;		
+	margin-right: 200px;
+	margin-top: -30px;
+	position: relative;
+	transform:rotate(-5deg);
+  	-moz-box-shadow: 3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+  	box-shadow: 3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+	
+#about /* About me */
+{
+     background-color: #FF004F;
+	 border-radius:10px;
+	 border: black solid;
+	 width: 65%;
+	 height: auto;
+	 margin: auto;
+	 text-align: center;
+}
+
+#about p{ 
+	margin-top: -20px;
+	padding-bottom: 15px;
+}
+	
+#career
+{
+	width: 65%;
+	height : 150px;
+	background-color: #FFFFFF;
+    padding-top: 30px;
+	margin: auto;
+ }
+
+#career p
+{
+	text-align:center;
+}
+
+#education
+{
+	width: 65%;
+	height : 150px;
+	background-color: #FFFFFF;
+    margin: auto;
+ }
+
+#experience
+{
+	 background-color: #FFFFFF;
+	 border-radius:5px;
+	 width: 65%;
+	 height: 200px;
+	 margin: auto;
+}
+	  
+#skills
+{
+	 border-radius:5px;
+	 width: 65%;
+	 height: 150px;
+	 margin: auto;
+	 background-color: #FFFFFF;
+	 overflow: auto;
+ }
+ 
+ #hobbies
+{
+	 border-radius:5px;
+	 width: 65%;
+	 height: 150px;
+	 margin: auto;
+	 background-color: #FFFFFF;
+	 overflow: auto;
+ }
+
+#references
+{
+	 background-color: #FFFFFF;
+	 border-radius:5px;
+	 width: 65%;
+	 height: 150px;
+	 margin: auto;
+}
+
+.left{ /* Resume headings */
+	 padding-right: 10px;
+	 text-align: right;
+	 float: left;
+	 height: 150px;
+	 width: 150px; 
+	 background-color: #FFFFFF;
+ }
+ 
+ .right{ /* Resume info */
+	 background-color: #FFFFFF;
+	 border-left: 5px solid ;
+	 height: auto;
+	 width: auto;  
+	 overflow: auto;
+	 padding-top: 10px;
+ }
+
+ #footer
+{
+	background-color: #FF004F;
+	height: 60px;
+	width: 83.5%;
+	margin: auto;
+	padding: 10px;
+	border-top-color: black;
+	border-top: 5px solid;
+	border-bottom-left-radius: 40px;
+	border-bottom-right-radius: 40px;
+}
